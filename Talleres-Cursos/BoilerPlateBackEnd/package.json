@@ -1,0 +1,28 @@
+{
+  "name": "boilerplatebackend",
+  "version": "1.0.0",
+  "description": "boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "",
+    "development": "nodemon --watch src/ ./src/index.development.js",
+    "start": "node src/index"
+  },
+  "keywords": [
+    "ieee",
+    "boilerplate"
+  ],
+  "author": "Fernando Cutire",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^2.11.0",
+    "bcrypt": "^4.0.1",
+    "graphql": "^14.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.4"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.2"
+  }
+}
