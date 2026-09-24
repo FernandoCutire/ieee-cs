@@ -1,5 +1,2 @@
 .MISC
-temp_auto_push.bat
 .Marketing
-.gitignore
-branch_structure.json
